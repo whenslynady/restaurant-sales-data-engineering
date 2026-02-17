@@ -81,8 +81,6 @@ Access pgAdmin:
 
 ![ETL notebook](images/ETL_notebook.png)
 
-
-````markdown
 > **Optional:** You can also use a Python ingestion script instead of the Jupyter Notebook if you prefer automated execution.
 
 ## 🐍 Execute Python Script to Ingest Data Locally
@@ -122,7 +120,6 @@ docker run --rm \
 
 ![Perform EDA](images/Perform_EDA.png)
 
-````markdown
 > **Note:**  
 > - For simple insights, you can use the Jupyter Notebook directly.  
 > - For deeper analysis, you can choose to run queries either in the EDA notebook using SQL capabilities or directly inside PostgreSQL.  
