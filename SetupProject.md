@@ -81,26 +81,30 @@ Access pgAdmin:
 
 ![ETL notebook](images/ETL_notebook.png)
 
-> **Optional:** You can also use a Python ingestion script instead of the Jupyter Notebook if you prefer automated execution.
 
-## 🐍 Execute Python Script to Ingest Data Locally
+> ⚠️ **Optional:** You can also use a Python ingestion script instead of the Jupyter Notebook if you prefer automated execution.  
+> ❗ Take note of the `.env` settings depending on your environment.
+
+## 🐍 Option 1: Execute Python Script to Ingest Data Locally
 
 ```bash
 python ingest_data.py --excel_path restaurant_sales_2.xlsx
 ````
 
-> **Note:** When running locally without Docker, make sure your `.env` has `PG_HOST=localhost`.
-> Keep `PG_HOST=pgdatabase` when running from a container connected to the Docker network.
+> ⚠️ **Note:**
+>
+> * When running locally without Docker, make sure your `.env` has `PG_HOST=localhost`.
+> * Keep `PG_HOST=pgdatabase` when running from a container connected to the Docker network.
 
-## 🐳 Python Script to Ingest Data into Docker Container
+## 🐳 Option 2: Python Script to Ingest Data into Docker Container
 
-> **Note:** In a real environment, you would not use `--network=pg-network` as a parameter for the container; instead, you would provide the actual URL or IP of your database host.
+> ⚠️ **Note:** In a real environment, you would not use `--network=pg-network` as a parameter for the container; instead, provide the actual URL or IP of your database host.
 
 ```bash
-# Build the ingestion image
+# 1️⃣ Build the ingestion image
 docker build --no-cache -t restaurant-ingestion .
 
-# Run the ingestion container
+# 2️⃣ Run the ingestion container
 docker run --rm \
   --network=pg-network \
   -v "$(pwd)":/app \
@@ -112,6 +116,9 @@ docker run --rm \
   --port 5432 \
   --db restaurant
 ```
+
+> ✅ **Tip:** Use Option 1 for quick local testing and Option 2 when integrating with your Dockerized PostgreSQL environment.
+
 
 ### Step 2 – Perform EDA
 
