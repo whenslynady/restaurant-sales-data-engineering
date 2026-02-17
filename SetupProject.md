@@ -81,6 +81,12 @@ Access pgAdmin:
 
 ![ETL notebook](images/ETL_notebook.png)
 
+🐘 Data Successfully Loaded into PostgreSQL
+
+After validating the transformations, the processed data was loaded into PostgreSQL.
+The image below shows the structured tables with successfully ingested records, confirming that the ETL pipeline executed correctly.
+
+![PostgreSQL Loaded Data](images/postgres_loaded_data.png)
 
 > ⚠️ **Optional:** You can also use a Python ingestion script instead of the Jupyter Notebook if you prefer automated execution.  
 > ❗ Take note of the `.env` settings depending on your environment.
