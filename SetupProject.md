@@ -160,7 +160,7 @@ SELECT COUNT(*) FROM "Fact_Sales";
 
 ```
 
-> **Tip:** You can find the SQL exercises and examples in the [SQL_Exercises.md](SetupProject.md) file in the project repository.
+> **Tip:** You can find the SQL exercises and examples in the [SQL_Exercises.md](SQL_Exercises.md) file in the project repository.
 
 
 ### Step 3 – Connect Tableau
