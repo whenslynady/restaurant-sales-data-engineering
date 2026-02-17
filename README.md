@@ -13,7 +13,7 @@ This project builds a complete **data engineering pipeline** to transform raw sa
 
 ## 📂 Data Source
 
-- Raw data comes from restaurant Excel files ([here](restaurant_sales_2.xlsx)).
+- Raw data comes from restaurant Excel files ([Source](restaurant_sales_2.xlsx)).
 - Each file includes order-level transactional details such as:
   - Menu items
   - Quantities
@@ -120,7 +120,7 @@ To explore and validate this project independently, follow these steps:
 4. **Connect Tableau**  
    Connect Tableau to the PostgreSQL database to refresh and interact with the dashboards.
 
-> For a complete setup and execution walkthrough, refer to the [here](SetupProject.md) file included in the repository.
+> For a complete setup and execution walkthrough, refer to the [Setup Guide](SetupProject.md) file included in the repository.
 
 
 
