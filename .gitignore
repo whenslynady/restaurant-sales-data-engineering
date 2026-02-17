@@ -1,0 +1,18 @@
+# Environment variables
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Tableau temporary file
+~Restaurant__20840.twbr
+
+# PostgreSQL data volume
+restaurant_postgres_data/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
