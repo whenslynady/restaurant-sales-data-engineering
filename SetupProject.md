@@ -67,7 +67,7 @@ docker run -it \
 Access pgAdmin:
 `http://localhost:8080`
 
-![Postgres login](images/Postgres login.png)
+![Postgres login](images/Postgres_login.png)
 
 
 # 🔄 Execution Workflow
@@ -79,7 +79,7 @@ Access pgAdmin:
 * Create fact and dimension tables
 * Load data into PostgreSQL
 
-![ETL notebook](images/ETL notebook.png)
+![ETL notebook](images/ETL_notebook.png)
 
 
 ````markdown
@@ -120,7 +120,7 @@ docker run --rm \
 * Open **EDA notebook**
 * Analyze trends, categories, revenue drivers, and performance metrics  
 
-![Perform EDA](images/Perform EDA.png)
+![Perform EDA](images/Perform_EDA.png)
 
 ````markdown
 > **Note:**  
@@ -156,7 +156,7 @@ SELECT COUNT(*) FROM "Fact_Sales";
 
 ```
 
-> **Tip:** You can find the SQL exercises and examples in the `SQL_Exercises.md` file in the project repository.
+> **Tip:** You can find the SQL exercises and examples in the [SQL_Exercises.md](SetupProject.md) file in the project repository.
 
 
 ### Step 3 – Connect Tableau
@@ -164,7 +164,7 @@ SELECT COUNT(*) FROM "Fact_Sales";
 * Connect Tableau to PostgreSQL
 * Build dashboards
 * Refresh and validate KPIs
-![Connect Tableau to PostgreSQL](images/Connect Tableau to PostgreSQL.png)
+![Connect Tableau to PostgreSQL](images/Connect_Tableau_PostgreSQL.png)
 
 
 # 📊 Analytical Dashboards
@@ -172,78 +172,87 @@ SELECT COUNT(*) FROM "Fact_Sales";
 ## 🏷 KPI Executive Banner
 
 The top section of the dashboard displays:
-![KPI Banner](images/KPI Banner.png)
+![KPI Banner](images/KPI_Banner.png)
 
 ## 📈 Trend Analysis
 
 ### Hourly Sales Trend
 
-![Hourly Sales Trend](images/Hourly Sales Trend.png)
+![Hourly Sales Trend](images/Hourly_Sales_Trend.png)
 
 ### Weekly Order Trend
 
-![Weekly Order Trend](images/Weekly Order Trend.png)
+![Weekly Order Trend](images/Weekly_Order_Trend.png)
 
 ### Revenue by Category
 
-![Sales by Food Category](images/Sales by Food Category.png)
+![Sales by Food Category](images/Sales_Food_Category.png)
 
 ### Revenue by Size
 
-![Sales of Food by Size](images/Sales of Food by Size.png)
+![Sales of Food by Size](images/Sales_Food_Size.png)
 
 ### Total Orders, Food Sales by Category
 
-![Total Orders and Food Sales by Category](images/Total Orders and Food Sales by Category.png)
+![Total Orders and Food Sales by Category](images/Total_Orders_Food_Sales_Category.png)
 
 
 ## 🏆 Top & Bottom Performance
 
 ### Top 5 by Revenue
 
-![Top 5 Performing Foods by Revenue](images/Top 5 Performing Foods by Revenue.png)
+![Top 5 Performing Foods by Revenue](images/Top_5_Performing_Foods_Revenue.png)
 
 ### Bottom 5 by Revenue
 
-![Bottom 5 Performing Foods by Revenue](images/Bottom 5 Performing Foods by Revenue.png)
+![Bottom 5 Performing Foods by Revenue](images/Bottom_5_Performing_Foods_Revenue.png)
 
 ### Top 5 by Quantity
 
-![Top 5 Food Items by Sales Volume](images/Top 5 Food Items by Sales Volume.png)
+![Top 5 Food Items by Sales Volume](images/Top_5_Food_Items_Sales_Volume.png)
 
 ### Bottom 5 by Quantity
 
-![Bottom 5 Food Items by Sales Volume](images/Bottom 5 Food Items by Sales Volume.png)
+![Bottom 5 Food Items by Sales Volume](images/Bottom_5_Food_Items_Sales_Volume.png)
+
+### Top 5 by Orders
+
+![Top 5 Food by Total Orders](images/Top_5_Foods_Total_Orders.png)
+
+### Bottom 5 by Orders
+
+![Bottom 5 Foods by Total Orders](images/Bottom_5_Foods_Total_Orders.png)
+
 
 
 ## 🏢 Restaurant Performance
 
 ### Quarterly Revenue
 
-![Quarterly Revenue by Restaurant](images/Quarterly revenue by restaurant.png)
+![Quarterly Revenue by Restaurant](images/Quarterly_Revenue_Restaurant.png)
 
 ### Monthly Distribution
 
-![Revenue Distribution by Restaurant for Each Month](images/Revenue distribution by restaurant for each month.png)
+![Revenue Distribution by Restaurant for Each Month](images/Revenue_distribution_restaurant_month.png)
 
 ### Orders & Revenue by Day
 
-![Orders and Revenue by Day of Week](images/Orders and Revenue by Day of Week.png)
+![Orders and Revenue by Day of Week](images/Orders_Revenue_Day_Week.png)
 
 
 ## 🎯 Promotions & Payment Insights
 
 ### Discounted vs Non-Discounted Revenue
 
-![Restaurant Revenue Discounted vs Non-Discounted](images/Restaurant Revenue: Discounted vs. Non-Discounted.png)
+![Restaurant Revenue Discounted vs Non-Discounted](images/Restaurant_Revenue_Discounted_vs._Non_Discounted.png)
 
 ### Net Revenue by Promotion
 
-![Net Revenue by Discounted Promotion](images/Net Revenue by Discounted Promotion.png)
+![Net Revenue by Discounted Promotion](images/Net_Revenue_Discounted_Promotion.png)
 
 ### Revenue & Orders by Payment Method
 
-![Revenue & Orders by Payment Method](images/Revenue & Orders by Payment Method.png)
+![Revenue & Orders by Payment Method](images/Revenue_Orders_Payment_Method.png)
 
 
 ## ✅ Final Outcome
