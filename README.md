@@ -13,15 +13,16 @@ This project builds a complete **data engineering pipeline** to transform raw sa
 
 ## 📂 Data Source
 
-- Raw data originates from restaurant Excel files (`restaurant_sales_1.xlsx`, `restaurant_sales_2.xlsx`).
-- Each file contains order-level transactional details including:
+- Raw data comes from restaurant Excel files ([here](restaurant_sales_2.xlsx)).
+- Each file includes order-level transactional details such as:
   - Menu items
   - Quantities
-  - Prices and food cost
+  - Prices and food costs
   - Promotions and discounts
   - Payment methods
   - Restaurant metadata
 - Data is processed in Python and loaded into **PostgreSQL (Docker)** for structured storage.
+
 
 ## 2️⃣ Business Questions
 
@@ -93,15 +94,15 @@ The dashboards are organized into **three primary sections**, each designed to a
 ### 1️⃣ Home
 Provides a high-level overview of key performance indicators such as total revenue, total orders, and overall sales trends.
 
-![Home Screenshot](images/dashboard_home.png)
+![Home Screenshot](images/Home.png)
 
 ### 2️⃣ Best / Worst
 Focuses on performance comparison:
-![Best/Worst Screenshot](images/dashboard_best_worst.png)
+![Best/Worst Screenshot](images/BestWorst.png)
 
 ### 3️⃣ Detailed Analysis
 Offers deeper insights into operational and financial performance:
-![Detailed Analysis Screenshot](images/dashboard_detailed_analysis.png)
+![Detailed Analysis Screenshot](images/Detailed Analysis.png)
 
 ## 8. 🔄 How to Run the Project
 
@@ -119,7 +120,7 @@ To explore and validate this project independently, follow these steps:
 4. **Connect Tableau**  
    Connect Tableau to the PostgreSQL database to refresh and interact with the dashboards.
 
-> For a complete setup and execution walkthrough, refer to the `SetupProject.md` file included in the repository.
+> For a complete setup and execution walkthrough, refer to the `[here](SetupProject.md)` file included in the repository.
 
 
 
