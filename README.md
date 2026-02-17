@@ -102,7 +102,7 @@ Focuses on performance comparison:
 
 ### 3️⃣ Detailed Analysis
 Offers deeper insights into operational and financial performance:
-![Detailed Analysis Screenshot](images/Detailed Analysis.png)
+![Detailed Analysis Screenshot](images/Detailed_Analysis.png)
 
 ## 8. 🔄 How to Run the Project
 
@@ -120,7 +120,7 @@ To explore and validate this project independently, follow these steps:
 4. **Connect Tableau**  
    Connect Tableau to the PostgreSQL database to refresh and interact with the dashboards.
 
-> For a complete setup and execution walkthrough, refer to the `[here](SetupProject.md)` file included in the repository.
+> For a complete setup and execution walkthrough, refer to the [here](SetupProject.md) file included in the repository.
 
 
 
