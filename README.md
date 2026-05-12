@@ -104,6 +104,24 @@ Focuses on performance comparison:
 Offers deeper insights into operational and financial performance:
 ![Detailed Analysis Screenshot](images/Detailed_Analysis.png)
 
+🔑 Key Findings - Restaurant Food Sales Report (2023)
+
+1. 💰 Seafood/Fish dominates revenue
+   The Seafood/Fish category accounts for 50.32% ($984K) of the total $1.955M revenue - more than all other categories combined.
+
+2. 🕐 Peak hours: 12–1 PM and 4–6 PM
+   The highest sales volume occurs during lunchtime with 14.1K transactions and 13.6K transactions. The afternoon period (4–6 PM) is the second peak — useful for staffing and planning.
+
+3. 🦀 Stone Crab Claws = #1 revenue product
+   A single item — Stone Crab Claws - generates $251.5K, more than double the second-highest product (Blackened Fish Sandwich: $188.6K).
+
+4. 🏆 The Columbia Restaurant leads overall performance
+   With $861K in total annual revenue, it surpasses Hawkers ($619K) and Joe's Stone Crab ($475K) - and leads in both discounted and non-discounted revenue performance.
+
+5. 💳 Cash is the #1 payment method
+   Cash generates $798K, ahead of Credit Card ($591K) and Bank Transfer ($447K) - important for restaurant cash flow management.
+
+
 ## 8. 🔄 How to Run the Project
 
 To explore and validate this project independently, follow these steps:
