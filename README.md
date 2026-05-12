@@ -104,7 +104,7 @@ Focuses on performance comparison:
 Offers deeper insights into operational and financial performance:
 ![Detailed Analysis Screenshot](images/Detailed_Analysis.png)
 
-#### 🔑 Key Findings - Restaurant Food Sales Report (2023)
+### 🔑 Key Findings - Restaurant Food Sales Report (2023)
 
 1. 💰 Seafood/Fish dominates revenue
    The Seafood/Fish category accounts for 50.32% ($984K) of the total $1.955M revenue - more than all other categories combined.
